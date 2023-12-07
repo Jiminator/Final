@@ -1,261 +1,94 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <!-- From: https://www.joshuacolvin.net/prevent-safari-phone-number-detection/ -->
-  <meta name="format-detection" content="telephone=no" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Jimmy Shong</title>
-</head>
-<body>
-  <div class="navbar">
-    <a href="index.html" class="active">History</a>
-    <a href="event.html">Event</a>
-    <a href="aftermath.html">Aftermath</a>
-  </div>
-  <div class="page-title">
-    History
-  </div>
-  <div class="cv"> 
-    <div class="card"> 
-      <h3 class="card-title">Apollo</h3> 
-      <div class="project">
-        <div class="project-image">
-          <img src="Apollo_Reddit_App_Trailer.gif" alt="Project Image">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="timeline-section">
+      <div class="container">
+        <!-- Timeline Header -->
+        <div class="Timeline__header">
+          <h2>Timeline</h2>
+          <p class="heading--title">
+            Here is the breakdown of the time we anticipate <br />
+            using for the upcoming event.
+          </p>
         </div>
-        <div class="project-details">
-          <div class="project-title">
-            TinyVoiceChat: On-Device Speech-to-Speech LLM Chatbot
+
+        <div class="Timeline__content">
+          <div class="Timeline__item">
+            <div class="Timeline__text">
+              <h3>Occasion 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, explicabo.
+              </p>
+              <span class="circle">1</span>
+            </div>
+            <h3 class="Timeline__date">12 Dec. 2023</h3>
           </div>
-          <div class="year">
-            2023
+          <div class="Timeline__item">
+            <div class="Timeline__text">
+              <h3>Occasion 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, explicabo.
+              </p>
+              <span class="circle">2</span>
+            </div>
+            <h3 class="Timeline__date">12 Dec. 2023</h3>
           </div>
-          <div class="authors">
-            <u>Jimmy Shong</u>, Wei-Chen Wang, Song Han
+          <div class="Timeline__item">
+            <div class="Timeline__text">
+              <h3>Occasion 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, explicabo.
+              </p>
+              <span class="circle">3</span>
+            </div>
+            <h3 class="Timeline__date">12 Dec. 2023</h3>
           </div>
-          More Info (in progress) | 
-          <a href="https://github.com/mit-han-lab/TinyChatEngine/blob/main/llm/application" target="_blank">Code</a>
+          <div class="Timeline__item">
+            <div class="Timeline__text">
+              <h3>Occasion 4</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, explicabo.
+              </p>
+              <span class="circle">4</span>
+            </div>
+            <h3 class="Timeline__date">12 Dec. 2023</h3>
+          </div>
+          <div class="Timeline__item">
+            <div class="Timeline__text">
+              <h3>Occasion 5</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, explicabo.
+              </p>
+              <span class="circle">5</span>
+            </div>
+            <h3 class="Timeline__date">12 Dec. 2023</h3>
+          </div>
+          <div class="Timeline__item">
+            <div class="Timeline__text">
+              <h3>Occasion 6</h3>
+              <p>
+                <img src="Apollo_Reddit_App_Trailer.gif" alt="Italian Trulli">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, explicabo.
+              </p>
+              <span class="circle">6</span>
+            </div>
+            <h3 class="Timeline__date">12 Dec. 2023</h3>
+          </div>
         </div>
       </div>
-      <!-- <table> 
-        <tbody>
-          <tr> 
-            <td class="pr">
-              <b>Name</b>
-            </td> 
-            <td class="pl"> Jimmy Shong </td> 
-          </tr> 
-          <tr> 
-            <td class="pr">
-              <b>Occupation</b>
-            </td> 
-            <td class="pl"> Student </td> 
-          </tr> 
-          <tr> 
-            <td class="pr">
-              <b>Email</b>
-            </td> 
-            <td class="pl"> 
-              <a href="mailto:js11718@nyu.edu" target="_blank">js11718@nyu.edu</a> 
-            </td> 
-          </tr> 
-          <tr> 
-            <td class="pr">
-              <b>Summary</b>
-            </td> 
-            <td class="pl"> 
-              Senior at New York University currently pursuing a B.S. in computer science with interests in ML research, software engineering, and data science.
-          </tr> 
-        </tbody>
-      </table>  -->
-    </div> 
-    <div class="card"> 
-      <h3 class="card-title">AI and Data</h3> 
-      <div> 
-        <ul class="card-text card-content"> 
-          <li class="card-content-item"> 
-            <div class="row"> 
-              <div class="badge-column"> 
-                <span class="badge">05/2023 - Present</span> 
-              </div> 
-              <div class="role"> 
-                <h6 class="font-weight-bold right-column-alignment">
-                  Research Intern
-                </h6> 
-                <h6 class="right-column-alignment">
-                  <a href="https://hanlab.mit.edu/" target="_blank">HAN Lab, Massachusetts Institute of Technology</a>
-                </h6> 
-                <h6 class="right-column-alignment job-description">
-                  I developed a speech-to-speech chatbot for a universal high-performance inference library designed for the efficient deployment of quantized large language models on edge devices. I am currently conducting research on accelerating local LLM inference on MacOS using the Apple Neural Engine.
-                </h6> 
-                <ul class="items"> 
-                  <li> 
-                    <p>C, PyTorch, Linux</p> 
-                  </li>  
-                </ul>
-              </div> 
-            </div> 
-          </li> 
-          <li class="card-content-item"> 
-            <div class="row"> 
-              <div class="badge-column"> 
-                <span class="badge">01/2023 - Present</span> 
-              </div> 
-              <div class="role"> 
-                <h6 class="font-weight-bold right-column-alignment">
-                  Computer Science Tutor
-                </h6> 
-                <h6 class="right-column-alignment">
-                  <a href="https://engineering.nyu.edu/academics/undergraduate/tutoring-center#:~:text=Our%20services%20are%20available%20to,lend%20out%20with%20an%20ID." target="_blank">NYU Polytechnic Tutoring Center</a>
-                </h6> 
-                <h6 class="right-column-alignment job-description">
-                  I helped NYU CS students with questions regarding required computer science courses. I also recorded explanation videos for answer keys of mock exams developed by the PTC. 
-                </h6> 
-                <ul class="items"> 
-                  <li> 
-                    <p>Python, C++, Data Structures, 
-                      Object-Oriented Programming, Algorithms</p> 
-                  </li>  
-                </ul>
-              </div> 
-            </div> 
-          </li> 
-          <li class="card-content-item"> 
-            <div class="row"> 
-              <div class="badge-column"> 
-                <span class="badge">06/2022 - 07/2022</span>
-              </div> 
-              <div class="role"> 
-                <h6 class="font-weight-bold right-column-alignment">
-                  Instructor
-                </h6> 
-                <h6 class="right-column-alignment">
-                  <a href="https://bluestampengineering.com/" target="_blank">BlueStamp Engineering</a>
-                </h6> 
-                <h6 class="right-column-alignment job-description">
-                  I taught practices and principles of engineering to a class of twenty high school students, where I demonstrate the usage of engineering tools such as Arduino, Python, GitHub, and the terminal. I also acted as a mentor for their personal projects such as an intelligent door lock, a smart mirror, and Alexa home automation.
-                </h6> 
-                <ul class="items"> 
-                  <li> 
-                    <p>Python, TensorFlow, AWS, Arduino, Git</p> 
-                  </li>  
-                </ul>
-              </div> 
-            </div> 
-          </li> 
-          <li class="card-content-item"> 
-            <div class="row"> 
-              <div class="badge-column"> 
-                <span class="badge">09/2021 - 05/2022</span>
-              </div> 
-              <div class="role"> 
-                <h6 class="font-weight-bold right-column-alignment">
-                  Unsupervised ML Lead
-                </h6> 
-                <h6 class="right-column-alignment">
-                  <a href="https://engineering.nyu.edu/research-innovation/student-research/vertically-integrated-projects/vip-teams/ai-scientific-research" target="_blank">NYU AI for Scientific Research</a>
-                </h6> 
-                <h6 class="right-column-alignment job-description">
-                  I engineered a ML pipeline to help analyze trajectories of macrophages in M0, M1, and M2 in four dimensions. This pipeline is currently employed by researchers at the University of Groningen. I also worked on data visualization of sleep-wake dynamics of mice for scientists at NYU Abu Dhabi. 
-                </h6> 
-                <ul class="items"> 
-                  <li> 
-                    <p>Python</p> 
-                  </li>  
-                </ul>
-              </div> 
-            </div> 
-          </li> 
-        </ul> 
-      </div>
-    </div> 
-    <div class="card"> 
-      <h3 class="card-title">Potential IPO</h3> 
-      <div> 
-        <ul class="card-text card-content"> 
-          <li class="card-content-item"> 
-            <div class="row"> 
-              <div class="badge-column"> 
-                <span class="badge">09/2020 - Present</span> 
-              </div> 
-              <div class="role"> 
-                <h6 class="font-weight-bold right-column-alignment">
-                  B.S. in Computer Science
-                </h6> 
-                <h6 class="right-column-alignment">
-                  <a href="https://engineering.nyu.edu/" target="_blank">New York University Tandon School of Engineering</a>
-                </h6> 
-                <h6 class="right-column-alignment job-description">
-                  Minor in Mathematics, Minor in Cybersecurity
-                </h6> 
-              </div> 
-            </div> 
-          </li> 
-        </ul> 
-      </div>
-    </div>
-    <div class="card"> 
-      <h3 class="card-title">API Changes</h3> 
-      <div> 
-        <ul class="card-text card-content"> 
-          <li class="card-content-item"> 
-            <div class="row"> 
-              <div class="badge-column"> 
-                <span class="badge">07/2023</span> 
-              </div> 
-              <div class="role"> 
-                <h6 class="font-weight-bold right-column-alignment">
-                  NYU Tandon Fall 2022-Spring 2023 Dean's List
-                </h6> 
-                <h6 class="right-column-alignment">
-                  New York University Tandon School of Engineering
-                </h6> 
-                <h6 class="right-column-alignment job-description">
-                  The Dean's List is an academic honor awarded to undergraduate students achieving high scholarship each academic year. It is compiled at the end of each academic year and recognizes undergraduate students who achieve two consecutive term GPA's of 3.4 or higher over the course of an academic year.
-                </h6> 
-              </div> 
-            </div> 
-          </li> 
-          <li class="card-content-item"> 
-            <div class="row"> 
-              <div class="badge-column"> 
-                <span class="badge">07/2022</span> 
-              </div> 
-              <div class="role"> 
-                <h6 class="font-weight-bold right-column-alignment">
-                  <a href="https://engineering.nyu.edu/sites/default/files/2022-11/Dean%27s%20List%20Posters%20Fall%202021-Summer%202022%20FINAL.pdf" target="_blank">NYU Tandon Fall 2021-Spring 2022 Dean's List</a>
-                </h6> 
-                <h6 class="right-column-alignment">
-                  New York University Tandon School of Engineering
-                </h6> 
-                <h6 class="right-column-alignment job-description">
-                  The Dean's List is an academic honor awarded to undergraduate students achieving high scholarship each academic year. It is compiled at the end of each academic year and recognizes undergraduate students who achieve two consecutive term GPA's of 3.4 or higher over the course of an academic year.
-                </h6> 
-              </div> 
-            </div> 
-          </li> 
-          <li class="card-content-item"> 
-            <div class="row"> 
-              <div class="badge-column"> 
-                <span class="badge">07/2021</span> 
-              </div> 
-              <div class="role"> 
-                <h6 class="font-weight-bold right-column-alignment">
-                  <a href="https://engineering.nyu.edu/sites/default/files/2022-11/Dean%27s%20List%20Posters%20Fall%202020-Summer%202021%20FINAL.pdf" target="_blank">NYU Tandon Fall 2020-Spring 2021 Dean's List</a>
-                </h6> 
-                <h6 class="right-column-alignment">
-                  New York University Tandon School of Engineering
-                </h6> 
-                <h6 class="right-column-alignment job-description">
-                  The Dean's List is an academic honor awarded to undergraduate students achieving high scholarship each academic year. It is compiled at the end of each academic year and recognizes undergraduate students who achieve two consecutive term GPA's of 3.4 or higher over the course of an academic year.
-                </h6> 
-              </div> 
-            </div> 
-          </li> 
-        </ul> 
-      </div>
-    </div>  
-  </div>
-</body>
+    </section>
+  </body>
+  <script src="./script.js"></script>
 </html>
