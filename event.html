@@ -1,46 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="timeline.js"></script>
-    <title>Reddit Controversy - Event</title>
+  <meta charset="utf-8">
+  <!-- From: https://www.joshuacolvin.net/prevent-safari-phone-number-detection/ -->
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Jimmy Shong</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Introduction</a></li>
-                <li><a href="event.html">Event</a></li>
-                <li><a href="aftermath.html">Aftermath</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Add this code inside the <main> section of your event.html file -->
-    <main>
-        <h1>Event</h1>
-        <!-- Your event content goes here -->
-        <div id="timeline-container">
-            <div class="timeline-item" data-year="2022">
-                <h2>Controversial Event Start</h2>
-                <p>Description of the event in 2022.</p>
-            </div>
-            <div class="timeline-item" data-year="2023">
-                <h2>Height of Controversy</h2>
-                <p>Details of the peak moment of the controversy in 2023.</p>
-            </div>
-            <div class="timeline-item" data-year="2024">
-                <h2>Resolution</h2>
-                <p>Outcome and resolution of the controversy in 2024.</p>
-            </div>
-        </div>
-    </main>
-
-
-    <footer>
-        <!-- Footer content goes here -->
-    </footer>
+  <div class="navbar">
+    <a href="index.html">History</a>
+    <a href="event.html" class="active">Event</a>
+    <a href="aftermath.html">Aftermath</a>
+  </div>
+  <div class="page-title">
+    Event
+  </div>
+  <div class="cv"> 
+    <div class="card"> 
+      <h3 class="card-title">Timeline</h3> 
+      <table> 
+        <tbody>
+          <tr> 
+            <td class="pr">
+              <b>Name</b>
+            </td> 
+            <td class="pl"> Jimmy Shong </td> 
+          </tr> 
+          <tr> 
+            <td class="pr">
+              <b>Occupation</b>
+            </td> 
+            <td class="pl"> Student </td> 
+          </tr> 
+          <tr> 
+            <td class="pr">
+              <b>Email</b>
+            </td> 
+            <td class="pl"> 
+              <a href="mailto:js11718@nyu.edu" target="_blank">js11718@nyu.edu</a> 
+            </td> 
+          </tr> 
+          <tr> 
+            <td class="pr">
+              <b>Summary</b>
+            </td> 
+            <td class="pl"> 
+              Senior at New York University currently pursuing a B.S. in computer science with interests in ML research, software engineering, and data science.
+          </tr> 
+        </tbody>
+      </table> 
+    </div> 
+    <div class="card"> 
+      <h3 class="card-title">Apollo vs. Reddit</h3> 
+      <div> 
+        <ul class="card-text card-content"> 
+          <li class="card-content-item"> 
+            <div class="row"> 
+              <div class="badge-column"> 
+                <span class="badge">05/2023 - Present</span> 
+              </div> 
+              <div class="role"> 
+                <h6 class="font-weight-bold right-column-alignment">
+                  Research Intern
+                </h6> 
+                <h6 class="right-column-alignment">
+                  <a href="https://hanlab.mit.edu/" target="_blank">HAN Lab, Massachusetts Institute of Technology</a>
+                </h6> 
+                <h6 class="right-column-alignment job-description">
+                  I developed a speech-to-speech chatbot for a universal high-performance inference library designed for the efficient deployment of quantized large language models on edge devices. I am currently conducting research on accelerating local LLM inference on MacOS using the Apple Neural Engine.
+                </h6> 
+                <ul class="items"> 
+                  <li> 
+                    <p>C, PyTorch, Linux</p> 
+                  </li>  
+                </ul>
+              </div> 
+            </div> 
+          </li> 
+          <li class="card-content-item"> 
+            <div class="row"> 
+              <div class="badge-column"> 
+                <span class="badge">01/2023 - Present</span> 
+              </div> 
+              <div class="role"> 
+                <h6 class="font-weight-bold right-column-alignment">
+                  Computer Science Tutor
+                </h6> 
+                <h6 class="right-column-alignment">
+                  <a href="https://engineering.nyu.edu/academics/undergraduate/tutoring-center#:~:text=Our%20services%20are%20available%20to,lend%20out%20with%20an%20ID." target="_blank">NYU Polytechnic Tutoring Center</a>
+                </h6> 
+                <h6 class="right-column-alignment job-description">
+                  I helped NYU CS students with questions regarding required computer science courses. I also recorded explanation videos for answer keys of mock exams developed by the PTC. 
+                </h6> 
+                <ul class="items"> 
+                  <li> 
+                    <p>Python, C++, Data Structures, 
+                      Object-Oriented Programming, Algorithms</p> 
+                  </li>  
+                </ul>
+              </div> 
+            </div> 
+          </li> 
+          <li class="card-content-item"> 
+            <div class="row"> 
+              <div class="badge-column"> 
+                <span class="badge">06/2022 - 07/2022</span>
+              </div> 
+              <div class="role"> 
+                <h6 class="font-weight-bold right-column-alignment">
+                  Instructor
+                </h6> 
+                <h6 class="right-column-alignment">
+                  <a href="https://bluestampengineering.com/" target="_blank">BlueStamp Engineering</a>
+                </h6> 
+                <h6 class="right-column-alignment job-description">
+                  I taught practices and principles of engineering to a class of twenty high school students, where I demonstrate the usage of engineering tools such as Arduino, Python, GitHub, and the terminal. I also acted as a mentor for their personal projects such as an intelligent door lock, a smart mirror, and Alexa home automation.
+                </h6> 
+                <ul class="items"> 
+                  <li> 
+                    <p>Python, TensorFlow, AWS, Arduino, Git</p> 
+                  </li>  
+                </ul>
+              </div> 
+            </div> 
+          </li> 
+          <li class="card-content-item"> 
+            <div class="row"> 
+              <div class="badge-column"> 
+                <span class="badge">09/2021 - 05/2022</span>
+              </div> 
+              <div class="role"> 
+                <h6 class="font-weight-bold right-column-alignment">
+                  Unsupervised ML Lead
+                </h6> 
+                <h6 class="right-column-alignment">
+                  <a href="https://engineering.nyu.edu/research-innovation/student-research/vertically-integrated-projects/vip-teams/ai-scientific-research" target="_blank">NYU AI for Scientific Research</a>
+                </h6> 
+                <h6 class="right-column-alignment job-description">
+                  I engineered a ML pipeline to help analyze trajectories of macrophages in M0, M1, and M2 in four dimensions. This pipeline is currently employed by researchers at the University of Groningen. I also worked on data visualization of sleep-wake dynamics of mice for scientists at NYU Abu Dhabi. 
+                </h6> 
+                <ul class="items"> 
+                  <li> 
+                    <p>Python</p> 
+                  </li>  
+                </ul>
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div>
+    </div> 
+    <div class="card"> 
+      <h3 class="card-title">Subreddit Blackouts & Alternate Protests</h3> 
+      <div> 
+        <ul class="card-text card-content"> 
+          <li class="card-content-item"> 
+            <div class="row"> 
+              <div class="badge-column"> 
+                <span class="badge">09/2020 - Present</span> 
+              </div> 
+              <div class="role"> 
+                <h6 class="font-weight-bold right-column-alignment">
+                  B.S. in Computer Science
+                </h6> 
+                <h6 class="right-column-alignment">
+                  <a href="https://engineering.nyu.edu/" target="_blank">New York University Tandon School of Engineering</a>
+                </h6> 
+                <h6 class="right-column-alignment job-description">
+                  Minor in Mathematics, Minor in Cybersecurity
+                </h6> 
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div>
+    </div>
+    <div class="card"> 
+      <h3 class="card-title">Company Response</h3> 
+      <div> 
+        <ul class="card-text card-content"> 
+          <li class="card-content-item"> 
+            <div class="row"> 
+              <div class="badge-column"> 
+                <span class="badge">07/2023</span> 
+              </div> 
+              <div class="role"> 
+                <h6 class="font-weight-bold right-column-alignment">
+                  NYU Tandon Fall 2022-Spring 2023 Dean's List
+                </h6> 
+                <h6 class="right-column-alignment">
+                  New York University Tandon School of Engineering
+                </h6> 
+                <h6 class="right-column-alignment job-description">
+                  The Dean's List is an academic honor awarded to undergraduate students achieving high scholarship each academic year. It is compiled at the end of each academic year and recognizes undergraduate students who achieve two consecutive term GPA's of 3.4 or higher over the course of an academic year.
+                </h6> 
+              </div> 
+            </div> 
+          </li> 
+          <li class="card-content-item"> 
+            <div class="row"> 
+              <div class="badge-column"> 
+                <span class="badge">07/2022</span> 
+              </div> 
+              <div class="role"> 
+                <h6 class="font-weight-bold right-column-alignment">
+                  <a href="https://engineering.nyu.edu/sites/default/files/2022-11/Dean%27s%20List%20Posters%20Fall%202021-Summer%202022%20FINAL.pdf" target="_blank">NYU Tandon Fall 2021-Spring 2022 Dean's List</a>
+                </h6> 
+                <h6 class="right-column-alignment">
+                  New York University Tandon School of Engineering
+                </h6> 
+                <h6 class="right-column-alignment job-description">
+                  The Dean's List is an academic honor awarded to undergraduate students achieving high scholarship each academic year. It is compiled at the end of each academic year and recognizes undergraduate students who achieve two consecutive term GPA's of 3.4 or higher over the course of an academic year.
+                </h6> 
+              </div> 
+            </div> 
+          </li> 
+          <li class="card-content-item"> 
+            <div class="row"> 
+              <div class="badge-column"> 
+                <span class="badge">07/2021</span> 
+              </div> 
+              <div class="role"> 
+                <h6 class="font-weight-bold right-column-alignment">
+                  <a href="https://engineering.nyu.edu/sites/default/files/2022-11/Dean%27s%20List%20Posters%20Fall%202020-Summer%202021%20FINAL.pdf" target="_blank">NYU Tandon Fall 2020-Spring 2021 Dean's List</a>
+                </h6> 
+                <h6 class="right-column-alignment">
+                  New York University Tandon School of Engineering
+                </h6> 
+                <h6 class="right-column-alignment job-description">
+                  The Dean's List is an academic honor awarded to undergraduate students achieving high scholarship each academic year. It is compiled at the end of each academic year and recognizes undergraduate students who achieve two consecutive term GPA's of 3.4 or higher over the course of an academic year.
+                </h6> 
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div>
+    </div>  
+  </div>
 </body>
 </html>
