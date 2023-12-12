@@ -323,3 +323,15 @@ h5 {
 	background-color: #1A1A1B;
 
 }
+
+.animate__fadeInLeft {
+	animation: fadeInLeft 1s ease both;
+}
+
+.animate__fadeInRight {
+	animation: fadeInRight 1s ease both;
+}
+
+.animate__fadeIn {
+	animation: fadeIn 1s ease both;
+}
