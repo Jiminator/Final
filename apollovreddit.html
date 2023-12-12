@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <div class="container text-center">
+        <h1>Reddit API Controversies</h1>
+        <h4>Jimmy Shong</h4>
+      </div>
+    </header>
+    <div class="navbar">
+      <a href="index.html">Timeline</a>
+      <a href="apollovreddit.html" class="active">Apollo v. Reddit</a>
+      <a href="aftermath.html">Aftermath</a>
+    </div>
+    <div class="container">
+      <div class="header">
+        <h3>Apollo v. Reddit</h3>
+      </div>
+    </div>
+    <section class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-img">
+        </div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-img-header"> 
+            <h2>Christian meets with Reddit</h2>
+          </div>
+          <div class="date">31 MAY 2023</div>
+          <p>
+            Christian attends a scheduled meeting with Reddit to discuss API pricing. Reddit reveals that the price will be a non-negotiable $12, 000 for 50 million requests. Since the Apollo app goes through 7 billion requests per month, this pricing will cost Apollo $20 million per year, which is completely unsustainable. Christian records the call, unbeknownst to Reddit.
+          </p>
+        </div>
+      </div> 
+      <div class="timeline-item">
+        <div class="timeline-img">
+        </div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-img-header"> 
+            <h2>Internal Rumour</h2>
+          </div>
+          <div class="date">~31 MAY 2023</div>
+          <p>
+            Shortly after the call, an internal Reddit claim spreads that Christian tried to blackmail them for a $10 million payout to "stay quiet".
+          </p>
+        </div>
+      </div> 
+      <div class="timeline-item">
+        <div class="timeline-img">
+        </div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-img-header"> 
+            <h2>Reddit claims that Apollo is inefficient.</h2>
+          </div>
+          <div class="date">~31 MAY 2023</div>
+          <p>
+            In a call with moderators, Reddit accuses Apollo of being inefficient and not using their API correctly. Reddit CEO, Steve Huffman, also claimed that Apollo does web scraping to deliver notifications faster but has "done no effort to be a good citizen of the internet".
+          </p>
+        </div>
+      </div> 
+      <div class="timeline-item">
+        <div class="timeline-img">
+        </div>
+        <div class="timeline-content timeline-card js--fadeInRight">
+          <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-img-header"> 
+            <h2>Christian announces Apollo will shut down.</h2>
+          </div>
+          <div class="date">8 JUNE 2023</div>
+          <p>
+            In a reddit post, Christian announces that Apollo will close down on June 30th after working on it full-time for eight years, despite widespread acclaim and even a shout out from Apple executives. In it, Christian reveals the API price tag, and also how relations with Reddit had soured.       
+          </p>
+          <a class="bnt-more" href="https://www.reddit.com/r/reddit/comments/145bram/comment/jnk4oz4/?utm_source=reddit&utm_medium=web2x&context=3" target="_blank">More</a>
+        </div>
+      </div> 
+      <div class="timeline-item">
+        <div class="timeline-img">
+        </div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-img-header"> 
+            <h2>Christian addresses the internal rumour</h2>
+          </div>
+          <div class="date">8 JUNE 2023</div>
+          <p>
+            Christian reveals that he recorded the call, and publishes the audio along with a transcript. In it, it is shown that Reddit initially interpreted Christian's wording of quite down as an offer to not cause any drama in exchange for $10 million dollars. However, Christian clarifies that "going quiet" was referring to stopping the API usage if they were bought by Reddit to reduce the opportunity cost of Apollo and thus cut a deal for $10 million at half-price. It is also clear that the Reddit employee heard the clarification and apologized for the misunderstanding.
+          </p>
+          <a class="bnt-more" href="https://gist.github.com/christianselig/fda7e8bc5a25aec9824f915e6a5c7014" target="_blank">More</a>
+        </div>
+      </div> 
+      <div class="timeline-item">
+        <div class="timeline-img">
+        </div>
+        <div class="timeline-content js--fadeInRight">
+          <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-img-header"> 
+            <h2>Christian posts code of Apollo</h2>
+          </div>
+          <div class="date">26 JUNE 2023</div>
+          <p>
+            Christian posts the Apollo backend to debunk claims that Apollo is inefficient in its API usage. The Apollo backend is written in the Go programming language, which is have great performance.  Upon inspection, the app doesn't show any sort of major red flags in the way it's designed. Also provided was a documented trail of emails also showing Apollo, helping Reddit identify bugs, and maintaining good status on the API.
+          </p>
+          <a class="bnt-more" href="https://github.com/christianselig/apollo-backend" target="_blank">More</a>
+        </div>
+      </div> 
+      <div class="timeline-item">
+        <div class="timeline-img">
+        </div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/shutdown.png') center center no-repeat; background-size: cover;" class="timeline-img-header"> 
+            <h2>Apollo Shuts Down</h2>
+          </div>
+          <div class="date">30 June 2023</div>
+          <p>
+            Christian Sellig announces in a reddit post that Apollo has shut down. In the post he thanks the community for their support and talks about his journey with Apollo. Shortly after that, the app no longer worked and has replaced with a new icon.      
+          </p>
+          <a class="bnt-more" href="https://www.youtube.com/watch?v=KOFChFxsJ3I" target="_blank">In Memoriam</a>
+          <a class="bnt-more" href="https://www.reddit.com/r/apolloapp/comments/14nb5qs/today_is_apollo_for_reddits_last_day_and_i_just/" target="_blank">More</a>
+        </div>
+      </div> 
+    </section>    
+  </body>
+</html>
